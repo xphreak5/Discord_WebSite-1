@@ -89,3 +89,16 @@ nav {
 #home .bi-discord {
     padding-right: 0.6rem;
 }
+
+#home .img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 1rem;
+    width: 12rem;
+    height: 12rem;
+    margin-bottom: 1.4rem;
+}
+
+#features .bg-site {
+    background-color: #6F42C1;
+}
