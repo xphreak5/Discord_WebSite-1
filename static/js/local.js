@@ -1,3 +1,2 @@
-var searchButton = document.getElementById("search");
-
-searchButton.onclick.style.border = "none"
+// search butonu animasyon
+// jumbotron fadein effect
