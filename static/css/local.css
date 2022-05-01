@@ -39,11 +39,17 @@ nav {
     transition: 0.7s;
 }
 
-#navbar form a i:hover {
+#navbar form a:hover .bi-search{
     color: #180830;
     transition: 0.7s;
     opacity: 1
 }
+
+#navbar form a:hover {
+    transition: 0.7s;
+    opacity: 1
+}
+
 
 #navbar .img {
     width: 30px;
