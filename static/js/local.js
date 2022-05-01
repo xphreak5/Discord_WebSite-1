@@ -1,5 +1,4 @@
 // Set h2 First
-$("#jumbotron").html("Hi Welcome")
 
 // Search Animation
 $("#search").click(function() {
@@ -16,7 +15,7 @@ $("#search").blur(function() {
 
 
 // Jumbotron Effect
-var textArray = ["I am Boiz Bot", "Add me to your server", "I have some cool stuff", "Hi Welcome"]
+var textArray = ["Hi Welcome", "I am Boiz Bot", "Add me to your server", "I have some cool stuff"]
 var counter = 0;
 function changeText() {
     if (counter >= textArray.length) {
@@ -24,11 +23,11 @@ function changeText() {
     }
     
     
-    $("#jumbotron").fadeOut(1000)
     $("#jumbotron").html(textArray[counter])
     $("#jumbotron").fadeOut(1000)
     $("#jumbotron").fadeIn(3000)
     counter++;
 }
 
+changeText()
 setInterval(changeText, 4000)
