@@ -1,5 +1,3 @@
-// Set h2 First
-
 // Search Animation
 $("#search").click(function() {
     $("#search").animate({
