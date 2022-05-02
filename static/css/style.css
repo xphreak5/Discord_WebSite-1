@@ -5,6 +5,11 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
+
 body {
     background-color: #180830;
 }
