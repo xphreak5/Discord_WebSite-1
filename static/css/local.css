@@ -114,3 +114,44 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 #features .bg-site {
     background-color: #6F42C1;
 }
+
+#features .muted {
+    color: white;
+    opacity: 0.5;
+}
+
+#features .row {
+    margin: 0px 4rem;
+}
+
+#features .row .lead {
+    color: white;
+    opacity: 0.8;
+}
+
+#features .featurette {
+    margin-top: 6rem;
+}
+
+#features #btn-features {
+    background-color: #180830;
+    box-shadow: none;
+    padding: 0.5rem 2.5rem;
+}
+
+#features #btn-features:hover {
+    background-color: #2E0866;
+}
+
+#features #btn-features i {
+    margin-right: 0.5rem;
+}
+
+#footer {
+    padding: 1.5rem 0px 0.5rem 0px;
+}
+
+#footer a {
+    color: white;
+    opacity: 0.6;
+}

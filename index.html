@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav id="navbar" class="fixed-top navbar navbar-expand-lg navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#home"><img class="img shadow" src="/static/img/boız grubu.png"
                     alt="boiz.png">Boiz Bot</a>
@@ -62,19 +62,80 @@
             <div class="py-5">
                 <img class="img img-fluid text-center" src="/static/img/boız grubu.png" alt="">
                 <h1 class="fw-bold display-3 text-center text-light" id="jumbotron"></h1>
-                <button id="btn" class="btn btn-lg text-light" type="button"><i class="bi bi-discord"></i>Add to Discord</button>
+                <button id="btn" class="btn btn-lg text-light" type="button"><i class="bi bi-discord"></i>Add to
+                    Discord</button>
             </div>
         </div>
     </section>
 
     <section id="features">
-        <div class="bg-site p-3">
-            <h2 class="fst-italic display-6 text-center text-light">Features</h2>
+        <div class="bg-site p-3 container-fluid">
+            <h2 class="display-6 text-center text-light">Features</h2>
+            <p class="muted fst-italic text-center text-decoration-underline">Features you'll want to see on your
+                Discord Server</p>
+            <div class="row featurette">
+                <div class="col-md-6 p-4 bg-dark">
+                    <h2 class="featurette-heading text-center text-white">Keep your server safe</h2>
+                    <p class="lead fs-5 text-center">Let Boiz bot moderate your server for you. Boiz bot manages spam
+                        messages and links on the server.
+                        You can decide whose messages the Boiz bot monitors.</p>
+                </div>
+                <div class="col-md-5"></div>
+            </div>
+            <div class="row featurette">
+                <div class="col-md-7 p-4 order-md-2 text-center">
+                    <h2 class="featurette-heading text-white text-center">Build your own economy</h2>
+                    <p class="lead">Boost its economy with in-server events and spend freely in the store. Exclusive
+                        memberships will be waiting for you</p>
+                </div>
+                <div class="col-md-5 order-md-1"></div>
+            </div>
+            <div class="row featurette">
+                <div class="col-md-6 p-4">
+                    <h2 class="featurette-heading text-center text-white">Build a warmer environment with your community
+                    </h2>
+                    <p class="lead text-center text-light">Create a more friendly environment with your community.
+                        Polls, events, sweepstakes and more</p>
+                </div>
+                <div class="col-md-5 order-md-1"></div>
+            </div>
+            <div class="row featurette">
+                <div class="col-md-7 p-4 order-md-2 text-center">
+                    <h2 class="featurette-heading text-white text-center">Listen to music with your friends</h2>
+                    <p class="lead">You can listen to music on youtube with your friends, and another feature that
+                        distinguishes us from other bots is that you can listen to radio broadcasts via discord.</p>
+                </div>
+                <div class="col-md-5 order-md-1"></div>
+            </div>
+            <div class="row featurette">
+                <div class="col-md-6 p-4">
+                    <h2 class="featurette-heading text-center text-white">And much more</h2>
+                    <p class="lead text-center text-light">
+                        Our features that you can use with your community will be waiting for you.</p>
+                </div>
+                <div class="col-md-5 order-md-1"></div>
+            </div>
+            <div class="text-center text-light pt-5">
+                <h2 class="mb-2">Invite Boiz Bot</h2>
+                <button id="btn-features" class="btn btn-lg text-light" type="button"><i class="bi bi-discord"></i>Add to
+                    Discord</button>
+            </div>
         </div>
     </section>
+
+    <section id="footer" class="bg-dark">
+            <footer class="text-light">
+                <div class="container">
+                    <p class="float-end"><a href="#">Back to top</a></p>
+                    <p>&copy; 2020-2022 BoizSoftware, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                </div>
+            </footer>
+    </section>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="/static/js/bootstrap.bundle.min.js"></script>
     <script src="/static/js/local.js"></script>
 </body>
+
 </html>
