@@ -1,2 +1,2 @@
-1 - Navbar görüntüden çıktığında sayfanın sağ alt kısmına yukarıya gidilebilmesi için bir buton ekle.
-https://icons.getbootstrap.com/icons/arrow-up-circle/
+1 - Footer back to top yerine geliştirici bilgileri.
+2 - Commands.html açılacak 
