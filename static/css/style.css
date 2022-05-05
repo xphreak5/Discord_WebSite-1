@@ -252,3 +252,8 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 #footer a:hover {
     text-decoration: underline;
 }
+
+#select {
+    margin-bottom: 0.6rem;
+    box-shadow: none;
+}

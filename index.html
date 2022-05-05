@@ -123,9 +123,17 @@
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="youremail@example.com">
             </div>
             <div class="mb-3 email-width">
-                <label for="formGroupExampleInput" class="form-label text-light">Topic title</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Title">
-              </div>
+                <label for="formGroupExampleInput" class="form-label text-light">Your name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example : Julia Rose">
+            </div>
+            <label for="formselect" class="form-label text-light">Subject</label>
+            <select id="select" class="form-select email-width" aria-label="Default select example">
+                <option selected>Choose the topic</option>
+                <option value="1">Request</option>
+                <option value="2">Recommendation</option>
+                <option value="3">Complaint</option>
+                <option value="4">Other</option>
+            </select>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label text-light">Text Area</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
