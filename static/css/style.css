@@ -248,3 +248,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     color: #6F42C1;
     transition: 0.6s;
 }
+
+#footer a:hover {
+    text-decoration: underline;
+}
